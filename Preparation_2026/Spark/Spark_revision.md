@@ -2,7 +2,7 @@
 
 ## 1. What is Apache Spark?
 
-:contentReference[oaicite:0]{index=0} is a distributed data processing engine designed to process large-scale data efficiently using parallelism and in-memory computation.
+Spark is a distributed data processing engine designed to process large-scale data efficiently using parallelism and in-memory computation.
 
 ### Why Spark is fast
 
