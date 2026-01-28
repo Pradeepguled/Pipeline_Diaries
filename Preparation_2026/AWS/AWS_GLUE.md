@@ -257,7 +257,7 @@ Using Glue job bookmarks.
 Glue Data Catalog.
 
 **Q: Glue vs EMR?**
-Glue = serverless ETL, EMR = managed clusters.
+Glue = serverless ETL, EMR = managed clusters..   
 
 ---
 

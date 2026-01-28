@@ -1,7 +1,4 @@
-Below are **complete AWS Redshift notes in simple English**, **Amazon-interview focused**, and **easy to remember** — same clean style as S3, IAM, Lambda, Glue.
-
 ---
-
 # 🧱 AWS Redshift — Complete Notes (Simple English + Interview Q&A)
 
 Amazon Web Services
@@ -13,9 +10,7 @@ Amazon Web Services
 ![Image](https://i.sstatic.net/DN6oC.png)
 
 ![Image](https://thedataguy.in/assets/redshift-do-not-compress-sort-key-column/redshift-do-not-compress-sort-key-column1.png)
-
 ---
-
 ## 1️⃣ What is AWS Redshift?
 
 **AWS Redshift** is a **fully managed data warehouse** used for **fast analytics on large structured data**.
@@ -263,13 +258,3 @@ Using Redshift Spectrum.
 > **Redshift = Warehouse + Columnar + Dist Key + Sort Key**
 
 ---
-
-## ✅ What’s next? (Best order)
-
-Say one:
-
-* **“Next: Athena notes”**
-* **“Next: EMR notes”**
-* **“Next: Kinesis & Firehose notes”**
-
-You’re now covering **all core AWS services Amazon expects** 💪
