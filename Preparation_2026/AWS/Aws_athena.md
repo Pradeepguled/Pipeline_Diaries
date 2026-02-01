@@ -1,4 +1,3 @@
-Perfect 👍
 Here are **complete AWS Athena notes in simple English**, **including your doubts clearly answered**, and written **exactly for Amazon interviews**.
 
 ---

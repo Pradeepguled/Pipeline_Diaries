@@ -1,10 +1,3 @@
-Perfect 👍
-Below are **complete, concept-level notes** on **Chunking, Embeddings, and OpenAI Embeddings** — **not just project-specific**, but **everything important you should know** for interviews and real understanding.
-
-Written in **very simple layman English**.
-You can treat this as your **final revision notebook**.
-
----
 
 # 📘 CHUNKING – COMPLETE NOTES (Layman Terms)
 
@@ -130,7 +123,7 @@ Typical overlap:
 
 | Use Case     | Chunk Size              |
 | ------------ | ----------------------- |
-| General text | 300–800 tokens          |
+| General text | 300–800 tokens         |
 | Logs         | 1 message / block       |
 | RAG          | Smaller, precise chunks |
 | Search       | Medium chunks           |
@@ -363,12 +356,3 @@ RAG (optional explanation)
 > We first chunk large text into meaningful pieces based on structure or size. Each chunk is converted into an embedding using OpenAI, which represents its semantic meaning as numbers. These embeddings are stored in a vector database so we can perform similarity-based search and support RAG workflows.
 
 ---
-
-If you want next, I can:
-
-* Create a **1-page printable cheat sheet**
-* Add **diagrams**
-* Give **top 20 interview questions + answers**
-* Or do a **mock interview only on chunking & embeddings**
-
-Just tell me 👍
