@@ -1,0 +1,151 @@
+%-------------------------
+% Resume in LaTeX — Pradeep Guled
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+
+% Tight margins for one page
+\addtolength{\oddsidemargin}{-0.45in}
+\addtolength{\evensidemargin}{-0.45in}
+\addtolength{\textwidth}{0.9in}
+\addtolength{\topmargin}{-0.55in}
+\addtolength{\textheight}{1.1in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\setlength{\multicolsep}{2pt}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[\titlerule \vspace{-4pt}]
+
+% Job heading: company + date on line 1, title + location on line 2
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & \textit{\small #2} \\
+    \textit{\small #3} & \textcolor{gray}{\small #4} \\
+  \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeItem}[1]{
+  \item\small{#1 \vspace{-1pt}}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,topsep=2pt,itemsep=4pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-2pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[topsep=1pt,itemsep=0pt,parsep=1pt,leftmargin=*]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{4pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+  {\LARGE \textbf{Pradeep Guled}} \\[4pt]
+  \small
+  Bengaluru, India \;|\;
+  \href{mailto:pradeepguled281@gmail.com}{pradeepguled281@gmail.com} \;|\;
+  +91-8861944220 \;|\;
+  \href{https://github.com/Pradeepguled/}{\faGithub\ GitHub} \;|\;
+  \href{https://www.linkedin.com/in/pradeep-guled}{\faLinkedin\ LinkedIn}
+\end{center}
+
+\vspace{-6pt}
+
+%-----------SUMMARY-----------------
+\section{Summary}
+\small{Data Engineer with 4+ years of experience building batch and streaming data platforms on AWS across regulated, data-intensive industries -- including a near real-time Kafka-based alerting and event-triggering platform for healthcare telemetry, and a full-scale Hadoop/Hive to Snowflake \& AWS migration powering batch analytics pipelines. Specialized in Python, SQL, Spark, Snowflake, AWS, and dimensional modeling for large-scale analytics -- with domain experience in complex transactions, compliance-sensitive data, and multi-stakeholder reporting pipelines. Hands-on with GenAI pipelines and vector DBs. Proven collaborator delivering cost-effective, scalable data solutions.}
+
+\vspace{2pt}
+
+%-----------SKILLS (two columns)-----------------
+\section{Skills}
+\begin{multicols}{2}
+\small{
+\textbf{Languages:} Python, SQL, SparkSQL \\[1pt]
+\textbf{Distributed Processing:} Spark, PySpark, Hadoop, Hive \\[1pt]
+\textbf{Streaming \& Messaging:} Kafka, AWS Kinesis \\[1pt]
+\textbf{Orchestration:} Airflow, AWS Step Functions \\[1pt]
+\textbf{AWS Services:} S3, Glue, EMR, Lambda, Lake Formation
+
+\columnbreak
+
+\textbf{Data Warehousing:} Snowflake, Dimensional Modeling, ETL/ELT \\[1pt]
+\textbf{NoSQL \& Storage:} DynamoDB, S3 Object Storage \\[1pt]
+\textbf{Data Architecture:} Data Lake, Lakehouse, Distributed Systems \\[1pt]
+\textbf{DevOps:} Git, Docker, Linux, CI/CD \\[1pt]
+\textbf{ML \& GenAI:} Embeddings, Vector DBs, Semantic Search
+}
+\end{multicols}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {Carelon Global Solutions (Elevance Health)}{12-12-2024 -- Present}
+  {Software Engineer II -- Data Engineer}{Bengaluru, India}
+\resumeItemListStart
+  \resumeItem{Led end-to-end migration of Hadoop/Hive ecosystem to Snowflake and AWS (Glue, S3, Spark) -- involved in architecture design, pipeline development, and production maintenance for the new environment, cutting query latency and enabling elastic scaling.}
+  \resumeItem{Owned end-to-end ETL pipelines using AWS Glue, Lambda, Step Functions, and Snowflake, improving data freshness by 30--40\% and reducing compute costs by up to 20\% through warehouse sizing and workload tuning.}
+  \resumeItem{Designed dimensional data models (fact/dimension tables) for healthcare cost and claims analytics, handling SCDs and enabling reliable downstream reporting -- identified gaps in existing data structures and drove schema changes adopted across reporting teams.}
+  \resumeItem{Optimized PySpark and Snowflake workloads via partitioning and shuffle tuning, reducing pipeline runtimes by 20--30\%.}
+  \resumeItem{Led GenAI initiatives -- sourced and integrated new data into vector DB pipelines for embeddings and semantic search, expanding the platform to support new AI consumers.}
+  \resumeItem{Collaborated with analytics, architecture, and product teams; presented pipeline designs and cost trade-offs to technical and business stakeholders.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {Glassbeam India Pvt. Ltd.}{01-02-2022 -- 30-11-2024}
+  {Software Engineer -- Data Engineer}{Bengaluru, India}
+\resumeItemListStart
+  \resumeItem{Maintained and enhanced Kafka-based streaming pipelines for near real-time alerting on healthcare machine telemetry -- designed topic partitioning, consumer group scaling, and offset management for fault-tolerant, low-latency alert delivery.}
+  \resumeItem{Maintained large-scale batch ingestion pipelines using PySpark, AWS Glue, Lambda, and S3, onboarding new telemetry data sources into the analytics platform.}
+  \resumeItem{Implemented data quality automation and observability across batch and streaming pipelines, cutting manual QA effort by \textasciitilde80\% and improving stability via proactive root cause analysis.}
+  \resumeItem{Partnered with analysts and stakeholders to understand data requirements and evolve data structures accordingly.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {Glassbeam India Pvt. Ltd.}
+  {Associate Software Engineer}{Bengaluru, India}{Feb 2022 -- Apr 2023}
+\resumeItemListStart
+  \resumeItem{Developed Python-based ETL workflow modules for medical device log data, ensuring SLA-driven delivery and collaborating with senior engineers on data quality.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Basaweshwara Engineering College}{2017 -- 2021}
+    {B.E. in Computer \& Information Sciences}{Bagalkot, India}
+\resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------------
+\section{Certifications}
+\begin{itemize}[topsep=1pt,itemsep=1pt,parsep=0pt,leftmargin=*]
+  \item\small{AWS Certified Data Engineer -- Associate (2025)}
+  \item\small{Snowflake SnowPro Core \& Platform Certification (2025)}
+  \item\small{Oracle Cloud Infrastructure Generative AI Professional (2025)}
+\end{itemize}
+
+\end{document}
